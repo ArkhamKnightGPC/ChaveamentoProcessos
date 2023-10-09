@@ -5,7 +5,7 @@ The goal is to use the timer interrupt to switch between two tasks. The first on
 
 ![Resultado obtido](/QEMUprintscreen.png)
 
-##Implementation irq.s
+## Implementation ***irq.s***
 
 Firstly, we load the interrupt vector. At reset, we initialise the interrupt controller and the timer.
 
